@@ -9,9 +9,13 @@ body{
 .purchase-button{
     background-color: #E76F51;
     border-radius: 5px;
+    width: 168px;
+    height: 44px;
 }
 .paragraph-font{
     font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    
    
 }
 #text-color{
