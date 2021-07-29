@@ -27,52 +27,62 @@
     <!-- header start -->
 
     <header class="header-part">
-        <section class="d-flex   justify-content-lg-around align-items-lg-center">
-            <div>
+        <section>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-3 g-4 me-3">
+                    <div class="col">
+                        <p class="h6 fs-6 fw-light paragraph-font" id="text-color">Computer-controlled digital
+                            transistorized with electronic advance</p>
+                        <p class="h1 fw-bold text-light paragraph-font ">Honda CBR 300R</p>
 
-                <p class="h6 fs-6 fw-light paragraph-font" id="text-color">Computer-controlled digital
-                    transistorized with electronic advance</p>
-                <p class="h1 fw-bold text-light paragraph-font ">Honda CBR 300R</p>
-                <p class="h6 fs-6 fw-light paragraph-font text-wrap" id="text-color">
-                    Amet minim mollit non deserunt
-                    ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br> mollit.
-                    Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="h6 fs-6 fw-light paragraph-font text-wrap" id="text-color">
+                            Amet minim mollit non deserunt
+                            ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br>
+                            mollit.
+                            Exercitation veniam consequat sunt nostrud amet.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn text-light purchase-button" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn text-light purchase-button" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Purchase
-                </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Purchase Bike Here!</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                If you want to know the details of the bike. you can click the go button and make it
-                                purchase!
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Go!</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Purchase Bike Here!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        If you want to know the details of the bike. you can click the go button and
+                                        make it
+                                        purchase!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Go!</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col">
+                        <!-- header image -->
+                        <div>
+
+                            <img class="img-fluid col-sm-12" src="images/header-bike.png" alt="" width="500px"
+                                height="450px">
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <!-- header image -->
-            <div>
 
-                <img class="img-fluid col-sm-12 border border-warning" src="images/header-bike.png" alt="" width="500px"
-                    height="450px">
             </div>
-
         </section>
     </header>
 
@@ -88,26 +98,27 @@
             </div>
 
             <div class="container ">
-                <div class="row row-cols-sm-1 row-cols-lg-3 g-5 my-5">
+                <div class="row row-cols-1 row-cols-lg-3 g-4 me-3">
 
 
-                    <div class=" col">
-                        <div>
-                            <img class="img-fluid" id="grey-img" src="images/feature-bike.jpg" alt="" width="288px"
-                                height="243px">
-                        </div>
-
-
-                    </div>
-                    <div class=" col">
-                        <div>
-                            <img class="img-fluid" src="images/feature-bike.jpg" alt="" width="288px" height="243px">
-                        </div>
-                    </div>
                     <div class="col">
                         <div>
                             <img class="img-fluid" id="grey-img" src="images/feature-bike.jpg" alt="" width="288px"
                                 height="243px">
+                        </div>
+
+
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img class="img-fluid" src="images/feature-bike.jpg" alt="" width="288px" height="243px">
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div>
+                            <img class="img-fluid mb-5 " id="grey-img" src="images/feature-bike.jpg" alt=""
+                                width="288px" height="243px">
                         </div>
                     </div>
                 </div>
@@ -119,7 +130,7 @@
         <!-- card -->
         <section class="container ">
             <h2 class="text-center fw-bold">Happy <span class="client-span">Client Says</span></h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="row row-cols-1  row-cols-lg-3 g-4">
                 <div class="col mt-5">
                     <div class="card border-1 shadow-sm h-100">
                         <img src="images/user-1.png" class="card-img-top  card-img mt-5" alt="...">
@@ -366,7 +377,12 @@
 
         </section>
     </main>
+    <!-- footer -->
 
+
+    <footer>
+
+    </footer>
     <!-- bootstrap link -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
