@@ -22,8 +22,9 @@
     color: #E0E0E0;
 
 }
-
-
+.feature-bike-title{
+color:#E76F51;;
+}
 #grey-img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -58,8 +59,8 @@ color: #E76F51;
     color:#E76F51;
 }
 
-.fa-star.empty{
-    color:whitesmoke;
+ .rating{
+    color:#E76F51;
 }
   .progress-span{
       text-align: center;
