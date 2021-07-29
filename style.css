@@ -5,6 +5,7 @@
 .m-4{
     margin:0 !important;
 }
+
 .purchase-button{
     background-color: #E76F51;
     border-radius: 5px;
@@ -55,6 +56,10 @@ color: #E76F51;
   }
   .fas{
     color:#E76F51;
+}
+
+.fa-star.empty{
+    color:whitesmoke;
 }
   .progress-span{
       text-align: center;
