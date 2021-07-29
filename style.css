@@ -47,6 +47,7 @@ color: #E76F51;
   .card-detail{
    
     font-size: 16px;
+    word-wrap: break-word;
   }
   .card-client-name{
       color:#23A6F0;
