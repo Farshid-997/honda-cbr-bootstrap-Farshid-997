@@ -2,7 +2,9 @@
     background-color: #264653;
     
 }
-
+.m-4{
+    margin:0 !important;
+}
 .purchase-button{
     background-color: #E76F51;
     border-radius: 5px;
@@ -19,6 +21,35 @@
     color: #E0E0E0;
 
 }
-.m-4{
-    margin:0 !important;
-}
+
+
+#grey-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .client-span{
+color: #E76F51;
+
+  }
+  .card-img{
+      width:150px;
+      height: 150px;
+      text-align: center;
+      margin:auto;
+  }
+  #card-3_img{
+      border-radius: 50%;
+  }
+
+  .card-detail{
+   
+    font-size: 16px;
+  }
+  .card-client-name{
+      color:#23A6F0;
+      font-size: 14px;
+  }
+  .card-client-profession{
+    font-size: 14px;
+  }
