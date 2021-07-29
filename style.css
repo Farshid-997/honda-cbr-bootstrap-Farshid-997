@@ -53,6 +53,9 @@ color: #E76F51;
   .card-client-profession{
     font-size: 14px;
   }
+  .fas{
+    color:#E76F51;
+}
   .progress-span{
       text-align: center;
       color:black
